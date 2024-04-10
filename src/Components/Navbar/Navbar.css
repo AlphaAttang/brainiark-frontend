@@ -99,6 +99,9 @@
 }
 
 @media (max-width: 475px) {
+    .nav {
+        margin-top: 0.2rem;
+    }
     .nav-container {
         width: 95%;
     }

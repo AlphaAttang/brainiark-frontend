@@ -53,11 +53,11 @@
 
 @media (max-width: 475px) {
     .testimonials {
-        width: 95%;
         padding: 5rem 0;
     }
     .testimonials-head {
         width: 95%;
+        padding: 2rem;
     }
 
     .testimonials-head h1 {
