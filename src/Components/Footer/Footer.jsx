@@ -12,11 +12,11 @@ const Footer = () => {
             <div className="copywright">
                 <p>© 2024 - Powered by Brainiark360</p>
             </div>
-            <ul>
+            <div className='footer-links'>
                 <li>Terms & Conditions</li>
                 <li>Privacy Policy</li>
                 <li>Contact Us</li>
-            </ul>
+            </div>
         </div>
     </div>
   )

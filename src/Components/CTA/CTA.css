@@ -45,6 +45,14 @@
     width: 100%;
 }
 @media (max-width: 475px) {
+    .cta-container {
+        padding: 5rem 0;
+    }
+
+    .cta {
+        width: 95%;
+    }
+    
     .cta h1 {
         font-size: 2.5rem;
         line-height: 2.5rem;

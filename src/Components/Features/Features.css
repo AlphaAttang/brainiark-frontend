@@ -59,7 +59,7 @@
     margin: auto;
     display: grid;
     grid-template-columns: 1fr 1fr;
-    gap: 3rem;
+    gap: 2rem;
 }
 
 .banner {
@@ -107,6 +107,9 @@
 }
 
 @media (max-width: 475px) {
+    .features-container {
+        padding: 5rem 0;
+    }
     .features-title {
         font-size: 2.5rem;
         line-height: 3rem;

@@ -19,3 +19,10 @@
     font-weight: 700;
     color: rgba(202, 202, 202, 0.155);
 }
+
+@media (max-width: 475px) {
+    .overview {
+        width: 95%;
+        padding: 5rem 0;
+    }
+}

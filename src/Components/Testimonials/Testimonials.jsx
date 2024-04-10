@@ -6,7 +6,7 @@ import Testimonies from '../Testimonies/Testimonies'
 const Testimonials = () => {
   const concatenatedArray = testimonies.concat(testimonies)
   return (
-    <div className='testimonials section' id='testimonials'>
+    <div className='testimonials' id='testimonials'>
       <div className="testimonials-head">
         <h1>What our <span>clients</span> are saying</h1>
         <p>Prioritize what is important like some of our other owners.</p>

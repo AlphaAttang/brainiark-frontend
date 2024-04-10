@@ -14,7 +14,7 @@
 .testimonials-head h1 {
     font-size: 4rem;
     font-weight: 600;
-    margin-bottom: 1rem;
+    margin-bottom: 1.5rem;
     line-height: 4rem;
 }
 
@@ -44,16 +44,25 @@
 .testimonials-slider {
     display: flex;
     animation: 200s tslide infinite linear;
-    gap: 40px;   
+    gap: 40px;
 }
 
-.testimonials-card:hover .testimonials-slider {
+/* .testimonials-card:hover .testimonials-slider {
     animation-play-state: paused;
-}
+} */
 
 @media (max-width: 475px) {
+    .testimonials {
+        width: 95%;
+        padding: 5rem 0;
+    }
+    .testimonials-head {
+        width: 95%;
+    }
+
     .testimonials-head h1 {
         font-size: 2.5rem;
         line-height: 2.5rem;
     }
+
 }
