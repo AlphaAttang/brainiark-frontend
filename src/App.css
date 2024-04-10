@@ -36,3 +36,33 @@
     transform: rotate(360deg);
   }
 }
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  list-style-type: none;
+}
+
+body {
+  font-family: "Poppins", sans-serif;
+}
+
+button .colored {
+  padding: 0.7rem 2rem;
+  background: linear-gradient(120deg, #6557ff, #aa3fff 50%, #f8522e 100%);
+  color: white;
+  border-radius: 12px;
+  font-weight: 500;
+  font-size: 1rem;
+}
+
+button .plain {
+  padding: 0.7rem 2rem;
+  background: linear-gradient(120deg, #6557ff, #aa3fff 50%, #f8522e 100%);
+  color: white;
+  border-radius: 12px;
+  font-weight: 500;
+  font-size: 1rem;
+}
