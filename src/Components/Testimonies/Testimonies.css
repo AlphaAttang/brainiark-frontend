@@ -50,16 +50,10 @@
     color: gray;
 }
 
-.testimonies .commas {
-    width: 1.5rem;
+.commas {
+     font-size: 1.5rem;
     display: flex;
     align-items: end;
-}
-
-.testimonies .commas img {
-    background: linear-gradient(120deg, #6557ff, #aa3fff 50%, #f8522e 100%);
-    color: transparent;
-    width: 100%;
 }
 
 @media (max-width: 1024px) {
@@ -71,7 +65,7 @@
         width: 400px;
         padding: 2rem;
     }
-    
+
 }
 
 @media (max-width: 475px) {

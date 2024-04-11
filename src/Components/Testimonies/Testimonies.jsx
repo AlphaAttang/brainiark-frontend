@@ -1,6 +1,6 @@
 import React from 'react'
 import './Testimonies.css'
-import comma from '../Assets/inverted_commas.svg'
+import { FaQuoteRight } from "react-icons/fa";
 
 const Testimonies = (props) => {
     return (
@@ -17,9 +17,7 @@ const Testimonies = (props) => {
                         <p>{props.name}</p>
                         <p>{props.profession}</p>
                     </div>
-                    <div className="commas">
-                        <img src={comma} alt="" />
-                    </div>
+                    <FaQuoteRight className='commas' />
                 </div>
             </div>
         </div>

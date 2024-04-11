@@ -12,7 +12,7 @@ const Navbar = () => {
                 <div className="nav-container">
                     <div className="navbar">
                         <div className="nav-brand">
-                            <Link to='/'>
+                            <Link smooth to='#home'>
                                 <figure className="nav-logo">
                                     <img src={logo} alt="Brainiark Logo" />
                                 </figure>

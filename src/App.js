@@ -7,7 +7,6 @@ import Pricing from './Components/Pricing/Pricing';
 import CTA from './Components/CTA/CTA';
 import Footer from './Components/Footer/Footer';
 import Overview from './Components/Overview/Overview';
-import ScrollToTop from './Components/ScrollTop/ScrollToTop';
 
 function App() {
   return (
@@ -20,7 +19,6 @@ function App() {
       <Pricing />
       <CTA />
       <Footer />
-      <ScrollToTop />
     </div>
   );
 }
